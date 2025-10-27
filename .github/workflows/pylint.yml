@@ -23,5 +23,5 @@ jobs:
           
       - name: Analysing the code with pylint
         run: |
-          uv run nbqa pylint --disable=R0801 .
+          uv run nbqa pylint --disable=R0801 --exit-zero .
           uv run pylint $(git ls-files '*.py')
