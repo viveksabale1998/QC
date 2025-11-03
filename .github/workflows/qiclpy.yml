@@ -1,4 +1,6 @@
 name: Lint Markdown and Python
+permissions:
+  contents: read
 
 on:
   push:
